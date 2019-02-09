@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Mundo Oggies</string>
+
+    <string name="title_activity_video_introduccion">Video_introduccion</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bienvenido">Ingresar</string>
+    <string name="padres">Padres</string>
+    <string name="key_pref_music_volume">key_pref_music_volume</string>
+    <string name="key_music_on">key_music_on</string>
+    <string name="key_sound_on">key_sound_on</string>
+    <string name="key_vibrate_on">key_vibrate_on</string>
+    <string name="que_eres">"¿Qué eres tú?"</string>
+
+    <!-- INFORMACION -->
+
+    <!-- TITULOS-->
+    <string name="info_titulo_1">¿Qué se quiere crear?</string>
+    <string name="info_titulo_2">Objetivo</string>
+    <string name="info_titulo_3">Objetivos principales</string>
+    <string name="info_titulo_4">Objetivos secundarios</string>
+    <string name="info_titulo_5">Objetivos terciarios</string>
+    <string name="info_titulo_6">¿Para quién es la aplicación?</string>
+
+    <!-- TEXTOS-->
+    <string name="info_texto_1">Una aplicación para niños de 4-8 años con bogifobia, Que no  concilian el sueño y requieren estar acompañados o tener la luz prendida durante la noche.</string>
+    <string name="info_texto_2">•El objetivo de esta aplicación es demostrarles a los niños que en su habitación no existe algún peligro y que dormir con la luz prendida no es necesario, enseñándoles así a ahorrar energía y ayudar al mundo.</string>
+    <string name="info_texto_3">•Combatir los miedos de los niños.\n•Ahorrar energía .</string>
+    <string name="info_texto_4">•Crear un espacio de comodidad tanto para los niños y padres. </string>
+    <string name="info_texto_5">•Que los niños se ayuden por medio de la comunicación entre ellos.   </string>
+    <string name="info_texto_6">Niños y niñas de edades entre los 5 y 8 años, que sufran de bogifobia un miedo persistente e irracional a lo sobrenatural y las leyendas urbanas como los asustadores de niños, el coco, fantasmas, duendes, brujas y monstruos imaginarios, típicos de los miedos infantiles.</string>
+
+    <!-- CONSEJOS-->
+
+    <!--TEXTOS-->
+
+    <string name="consejo_texto_1">Continuas amenazas de los adultos para controlar el comportamiento de los niños que les lleva a intimidarles con seres como el Coco o el hombre del saco.</string>
+    <string name="consejo_texto_2">Suelen encontrar seguridad con la compañía en una persona que les transmita tranquilidad y les reconforte.</string>
+    <string name="consejo_texto_3">Se debe mostrar una actitud comprensible y que les recuerde que no hay nada que vaya a atacarlos.</string>
+    <string name="consejo_texto_4">A veces es bueno revisar la zona que les produce miedo como el armario o mirar debajo de la cama para asegurarles que no hay nada.</string>
+    <string name="consejo_texto_5">La eliminación de toda fobia requiere principalmente fuerza de voluntad de la persona para salir de ella.</string>
+    <string name="consejo_texto_6">Exponer gradualmente al paciente a situaciones similares a las que le producen temor, para que poco a poco comience a perder el miedo mediante la familiarización. </string>
+    <string name="consejo_texto_7">El tratamiento de una fobia comienza con la iniciativa propia y el deseo de superar el miedo.</string>
+    <string name="consejo_texto_8">Ver películas de miedo puede asustar al pequeño ante la dificultad de separar lo real de la ficción.</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estacion_invierno"
+    tools:context="com.app.mundo.oggies.MainActivity"
+    android:id="@+id/estacio"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" >
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/linearLayout4" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+                    android:id="@+id/relativeLayout2"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentTop="false"
+                        android:layout_alignParentLeft="false"
+                        android:id="@+id/Base"
+                        android:layout_alignParentEnd="false" >
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.9" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.1"
+                            android:id="@+id/ropa">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentTop="false"
+                                android:layout_alignParentStart="false"
+                                android:layout_weight="1"
+                                android:layout_alignWithParentIfMissing="false"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/body_welcome"
+                                android:contentDescription=""
+                                android:layout_alignParentBottom="true"
+                                android:visibility="visible"
+                                android:layout_gravity="center_horizontal" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cabello"
+                        android:layout_alignTop="@+id/Base" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:id="@+id/head_welcome"
+                            android:layout_alignParentStart="false"
+                            android:baselineAlignBottom="false"
+                            android:layout_alignParentTop="false"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="false"
+                        android:layout_alignBottom="@+id/Base"
+                        android:id="@+id/accesorio"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="true" >
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="4" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/accesorie_welcome"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentTop="false"
+                                android:layout_alignParentStart="false"
+                                android:layout_weight="1"
+                                android:layout_alignParentEnd="false"
+                                android:layout_alignParentLeft="false"
+                                android:visibility="visible" />
+
+                            <Space
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.mundo.oggies">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectGender"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CharacterEditor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MarcosFotos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CamaraMarco"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main_parents"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Advices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnimacionInicial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RoomEdit"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Room_view"/>
+        <activity
+            android:name=".Bienvenido"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Room_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RetoView"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Room_view"/>
+        <activity
+            android:name=".ExplorarHabitacion"
+            android:parentActivityName=".Room_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResultReto"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Creditos"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

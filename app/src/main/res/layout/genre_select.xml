@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baseingresar"
+    tools:context="com.app.mundo.oggies.MainActivity"
+    android:orientation="vertical">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contextClickable="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/que_eres"
+        android:id="@+id/titulo_que_eres"
+        android:layout_weight="1"
+        android:textSize="36sp"
+        android:textColor="@color/titlesImportant"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textAlignment="center"
+        android:gravity="center_vertical" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contextClickable="false" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:contextClickable="false" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/id_imagen_nino"
+                android:layout_weight="4"
+                android:background="@drawable/botonnino"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/id_imagen_nina"
+                android:layout_weight="4"
+                android:background="@drawable/botonnina"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:contextClickable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="1"
+        android:layout_weight="1">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:contextClickable="false" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:id="@+id/id_boton_nino"
+            android:layout_weight="1"
+            android:background="@drawable/nina">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/txt_btn_nino"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Niño"
+                android:textSize="26sp"
+                android:textColor="@color/textButtons"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:contextClickable="false" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:id="@+id/id_boton_nina"
+            android:layout_weight="1"
+            android:background="@drawable/nino">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/txt_btn_nina"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Niña"
+                android:textSize="26sp"
+                android:textColor="@color/textButtons"
+                android:textAlignment="center"
+                android:gravity="center" />
+    </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:contextClickable="false" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:contextClickable="false" />
+
+</LinearLayout>
